@@ -1,0 +1,4 @@
+C:\Users\Alena\source\repos\UlearnCourses\FirstMettingWithCSharp\FirstMettingWithCSharp\obj\Debug\net8.0\FirstMettingWithCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alena\source\repos\UlearnCourses\FirstMettingWithCSharp\FirstMettingWithCSharp\obj\Debug\net8.0\FirstMettingWithCSharp.AssemblyInfoInputs.cache
+C:\Users\Alena\source\repos\UlearnCourses\FirstMettingWithCSharp\FirstMettingWithCSharp\obj\Debug\net8.0\FirstMettingWithCSharp.AssemblyInfo.cs
+C:\Users\Alena\source\repos\UlearnCourses\FirstMettingWithCSharp\FirstMettingWithCSharp\obj\Debug\net8.0\FirstMettingWithCSharp.csproj.CoreCompileInputs.cache
