@@ -1,0 +1,5 @@
+C:\Users\Alena\source\repos\UlearnCourses\ThirdTask\ThirdTask\obj\Debug\net8.0\ThirdTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alena\source\repos\UlearnCourses\ThirdTask\ThirdTask\obj\Debug\net8.0\ThirdTask.AssemblyInfoInputs.cache
+C:\Users\Alena\source\repos\UlearnCourses\ThirdTask\ThirdTask\obj\Debug\net8.0\ThirdTask.AssemblyInfo.cs
+C:\Users\Alena\source\repos\UlearnCourses\ThirdTask\ThirdTask\obj\Debug\net8.0\ThirdTask.csproj.CoreCompileInputs.cache
+C:\Users\Alena\source\repos\UlearnCourses\ThirdTask\ThirdTask\obj\Debug\net8.0\ThirdTask.sourcelink.json
