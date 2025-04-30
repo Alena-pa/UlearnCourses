@@ -1,6 +1,78 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+## Сборка
+bin/
+obj/
+[Ll]og/
+*.log
 
-/.vs
-/FirstMettingWithCSharp/.vs
+## Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Конфигурации и локальные настройки
+*.dbmdl
+*.bak
+*.backup
+*.orig
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider
+.idea/
+*.sln.iml
+
+## User secrets
+secrets.json
+
+## dotCover
+*.dotCover
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Logs and diagnostics
+*.log
+*.tlog
+*.vshost.*
+*.pdb
+
+## Профилировщик
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## Папки тестирования
+TestResults/
+nunit-*.xml
+
+## Публикация
+publish/
+*.publish.xml
+
+## Кэш Visual Studio Code
+.history/
+
+## Системные файлы
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## MacOS
+.DS_Store
+
+## Linux
+*~
+
