@@ -1,7 +1,5 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Net.Sockets;
-using System.Numerics;
 using System.Reflection.Emit;
 
 namespace func_rocket
@@ -26,14 +24,14 @@ namespace func_rocket
         }
 
         static Level CreateZero(Rocket rocket, Vector target) =>
-        new("Zero", rocket, target, (size, v) => Vector.Zero, standardPhysics);
+    new("Zero", rocket, target, (size, v) => Vector.Zero, standardPhysics);
 
         static Level CreateHeavy(Rocket rocket, Vector target) =>
-        new("Heavy", rocket, target, (size, v) => new Vector(0, 0.9), standardPhysics);
+            new("Heavy", rocket, target, (size, v) => new Vector(0, 0.9), standardPhysics);
 
         static Level CreateUp(Rocket rocket) =>
             new("Up", rocket, new Vector(700, 500),
-        (size, v) => new Vector(0, -300 / (size.Y - v.Y + 300.0)), standardPhysics);
+                (size, v) => new Vector(0, -300 / (size.Y - v.Y + 300.0)), standardPhysics);
 
         static Level CreateWhiteHole(Rocket rocket, Vector target) =>
             new("WhiteHole", rocket, target,
@@ -42,6 +40,7 @@ namespace func_rocket
                     var d = (target - v).Length;
                     return (target - v).Normalize() * (-140 * d) / (d * d + 1);
                 }, standardPhysics);
+
         static Level CreateBlackHole(Rocket rocket, Vector target, Vector anomaly) =>
             new("BlackHole", rocket, target,
                 (size, v) =>
